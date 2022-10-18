@@ -1,0 +1,27 @@
+.item-navigator{
+  width:200rpx;
+  margin-right: 20rpx;
+  display: inline-block;
+}
+.item-navigator .item-group{
+  width:100%
+}
+.item-group .thumbnail-group{
+  width:100%;
+  height: 284rpx;
+}
+.thumbnail-group .thumbnail{
+  width: 100%;
+  height: 100%;
+}
+.item-group .item-title{
+  font-size: 24rpx;
+  text-align: center;
+  margin-top: 20rpx;
+  /* 标题长度超出处理 */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* 给星星组件加margin-top会影响详情页布局,故margin加到此 */
+  margin-bottom: 20rpx;
+}
+

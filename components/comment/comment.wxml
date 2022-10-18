@@ -1,0 +1,15 @@
+<view wx:for="{{comments}}" class="comment-group">
+  <view class="left-comment">
+  <image src="{{item.user.avatar}}" class="avatar"></image>
+  </view>
+  <view class="right-comment">
+  <view class="username-rate">
+  <text class="username">{{item.user.name}}</text>
+  <starts istext="{{false}}" rate="{{item.rating.value*2}}" starsize="25"></starts>
+  </view>
+  <view class="release-time">{{item.create_time}} {{item.ip_location?"来自"+item.ip_location:''}}</view>
+  <view class="content">
+  {{item.comment}}
+  </view>
+  </view>
+  </view>

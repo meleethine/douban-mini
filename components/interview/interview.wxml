@@ -1,0 +1,11 @@
+<navigator wx:if="{{item}}" class="item-navigator" url="{{itemurl}}">
+    <view class="item-group">
+    <view class="thumbnail-group">
+    <image class="thumbnail" src="{{item.cover.url||item.pic.normal}}"></image>
+    </view>
+    <view class="item-title">{{item.title}}</view>
+    <starts rate="{{item.rating.value}}"></starts>
+    </view>
+  </navigator>
+  <!-- 处理余数为2的排列情况 -->
+  <navigator wx:else="" class="item-navigator"></navigator>

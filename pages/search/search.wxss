@@ -1,0 +1,46 @@
+.item-list-group{
+  padding:10rpx 20rpx;
+  align-items: center;
+}
+.item-list-group .item-group{
+  display: flex;
+  padding-bottom:10rpx;
+  margin-bottom: 10rpx;
+  border-bottom: 1px solid #e4e4e4;
+}
+.item-group .thumbnail{
+  width:80rpx;
+  height:100rpx;
+  margin-right: 20rpx;
+}
+.item-group .info-group{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info-group .title{
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}
+.info-group .rate-year{
+  font-size: 32rpx;
+  color: #7b7b7b;
+}
+/* 历史记录 */
+.history-list-group{
+  padding: 0rpx 40rpx;
+
+}
+.history-list-group .history-title{
+  display: flex;
+  padding: 20rpx 0rpx;
+  justify-content: space-between;
+  font-size: 32rpx;
+  background-color: #f9f9f9;
+  color:#b3b3b3;
+}
+.history-list-group .history-group{
+  padding: 20rpx 0;
+  border-bottom: 1px solid #e4e4e4;
+}
